@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	int n,x,y;
+	cin>>t;
+	int c=0;
+	while(t--){
+	    cin>>n>>x>>y;
+	    c=x+(y*2);
+	    if(n>=c){
+	        cout<<"yes"<<endl;
+	    }
+	    else{
+	        cout<<"no"<<endl;
+	    }
+	}
+	return 0;
+}
