@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int a,b,c;
+	while(t--){
+	    cin>>a>>b>>c;
+	    int d=0;
+	    d=a+b;
+	    if(d==c){
+	        cout<<"yes"<<endl;
+	    }
+	    else{
+	        cout<<"no"<<endl;
+	    }
+	}
+	
+	return 0;
+}
