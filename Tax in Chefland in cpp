@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int c;
+    while(t--){
+        cin>>c;
+        if(c>100){
+            cout<<(c-10)<<endl;
+        }
+        else{
+            cout<<c<<endl;
+        }
+    }
+	return 0;
+}
