@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	int y,x;
+	cin>>t;
+	while(t--){
+	    cin>>y>>x;
+	    cout<<(y*10)+(x*90)<<endl;
+	}
+	return 0;
+}
