@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int n,x,k;
+	while(t--){
+	    int c=0;
+	    cin>>n>>x>>k;
+	    c=n*x;
+	    if(c<=k){
+	        cout<<"yes"<<endl;
+	    }
+	    else{
+	        cout<<"no"<<endl;
+	    }
+	}
+	return 0;
+}
