@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int a,b;
+	while(t--){
+	    cin>>a>>b;
+	    int d=0;
+	    d=7-a;
+	    int e=0;
+	    e=7-b;
+	    if(d>e){
+	        cout<<e<<endl;
+	    }
+	    else{
+	        cout<<d<<endl;
+	    }
+	}
+	return 0;
+}
