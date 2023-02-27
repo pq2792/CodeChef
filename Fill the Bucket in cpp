@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int x,k;
+	while(t--){
+	    cin>>x>>k;
+	    cout<<(x-k)<<endl;
+	}
+	return 0;
+}
