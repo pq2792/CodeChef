@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	long int x;
+	while(t--){
+	    cin>>x;
+	    int c=0;
+	    c=(x*10)/100;
+	    int e=0;
+	    e=x-c;
+	    int d=0;
+	    d=x-100;
+	    if(d<e){
+	        cout<<"100"<<endl;
+	    }
+	    else if(d>e){
+	        cout<<c<<endl;
+	    }
+	    else{
+	        cout<<"100"<<endl;
+	    }
+	}
+	return 0;
+}
