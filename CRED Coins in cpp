@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int x,y;
+	while(t--){
+	    cin>>x>>y;
+	    int d=0;
+	    d=x*y;
+	    int e=0;
+	    e=d/100;
+	    cout<<e<<endl;
+	}
+	return 0;
+}
