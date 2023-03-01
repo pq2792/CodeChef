@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	float x,y,z;
+	while(t--){
+	    cin>>x>>y>>z;
+	    float a=400/x;
+	    float b=400/y;
+	    float c=400/z;
+	    if(a>b && a>c){
+	        cout<<"alice"<<endl;
+	    }
+	    else if(b>a && b>c){
+	        cout<<"bob"<<endl;
+	    }
+	    else{
+	        cout<<"charlie"<<endl;
+	    }
+	}
+	return 0;
+}
