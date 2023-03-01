@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	int a,b,c,d;
+	cin>>t;
+	while(t--){
+	    cin>>a>>b>>c>>d;
+	    int e=0;
+	    int f=0;
+	    e=a*b;
+	    f=c*d;
+	    if(f>=e){
+	        cout<<"yes"<<endl;
+	    }
+	    else{
+	        cout<<"no"<<endl;
+	    }
+	}
+	return 0;
+}
