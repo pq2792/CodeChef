@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int a,b,c;
+	while(t--){
+	    cin>>a>>b>>c;
+	    int d=0;
+	    d=(a+b)/2;
+	    int e=0;
+	    e=(b+c)/2;
+	    int f=0;
+	    f=(a+c)/2;
+	    if(d>=35 && e >=35 && f>=35){
+	        cout<<"pass"<<endl;
+	    }
+	    else{
+	        cout<<"fail"<<endl;
+	    }
+	}
+	return 0;
+}
