@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int c;
+	while(t--){
+	    cin>>c;
+	    if(c<=15){
+	        cout<<"yes"<<endl;
+	    }
+	    else{
+	        cout<<"no"<<endl;
+	    }
+	}
+	
+	return 0;
+}
