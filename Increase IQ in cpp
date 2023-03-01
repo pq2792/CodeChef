@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x;
+	cin>>x;
+	int c;
+	c=x+7;
+	if(c>170){
+	    cout<<"yes"<<endl;
+	}
+	else{
+	    cout<<"no"<<endl;
+	}
+	return 0;
+}
