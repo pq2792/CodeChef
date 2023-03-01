@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	long long int n;
+	while(t--){
+	    cin>>n;
+	    int d=50*n;
+	    int e=(d*20)/100;
+	    int f=(d*20)/100;
+	    int g=(d*30)/100;
+	    cout<<d-(e+f+g)<<endl;
+	}
+	return 0;
+}
