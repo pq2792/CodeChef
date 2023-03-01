@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int w,x,y,z;
+	while(t--){
+	    cin>>w>>x>>y>>z;
+	    int d=w+y*z;
+	    if(d>x){
+	        cout<<"overflow"<<endl;
+	    }
+	    else if(d==x){
+	        cout<<"filled"<<endl;
+	    }
+	    else{
+	        cout<<"Unfilled"<<endl;
+	    }
+	}
+	return 0;
+}
