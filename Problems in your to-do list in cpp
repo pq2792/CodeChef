@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	int n;
+	cin>>t;
+	int d;
+	while(t--){
+	    cin>>n;
+	    int c=0;
+	    while(n--){
+	        cin>>d;
+	          if(d>=1000){
+	            c+=1;
+	        }
+	    }
+	    cout<<c<<endl;
+    }
+	return 0;
+}
