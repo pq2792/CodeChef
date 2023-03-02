@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,x;
+	    cin>>n>>x;
+	    if(n>x)
+	    {
+	        n= n-x;
+	        x = n/4 + ((n%4==0)?0:1);
+	    }
+	    else
+	    x= 0;
+	    cout<<x<<endl;
+	}
+	return 0;
+}
