@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int n,x,k;
+	while(t--){
+	    cin>>n>>x>>k;
+	    int d=k/x;
+	    if(n>=d){
+	        cout<<d<<endl;
+	    }
+	    else{
+	        cout<<n<<endl;
+	    }
+	}
+	return 0;
+}
