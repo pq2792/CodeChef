@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x,y;
+	cin>>x>>y;
+	int d=x-y;
+	int e=y/2;
+	cout<<d+e<<endl;
+	return 0;
+}
