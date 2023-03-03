@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int n;
+	while(t--){
+	    cin>>n;
+	    int a,b,c,d;
+	    cin>>a>>b>>c>>d;
+	    int m=max(max(a,b),max(c,d));
+	    cout<<m<<endl;
+	}
+	return 0;
+}
