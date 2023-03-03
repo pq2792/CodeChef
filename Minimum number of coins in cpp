@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int x;
+	while(t--){
+	    cin>>x;
+	    int d=0;
+	    int e=0;
+	    int f=0;
+	    if(x%10==0 || x%5==0){
+	        d=x/10;
+	        f=x-(d*10);
+	        e=f/5;
+	        cout<<d+e<<endl;
+	    }
+	    else{
+	        cout<<"-1"<<endl;
+	    }
+	}
+	
+	return 0;
+}
