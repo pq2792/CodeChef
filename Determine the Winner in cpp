@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n;
+	cin>>n;
+	int p1,p2,q1,q2;
+	int max1,max2;
+	char ans;
+	while(n>0)
+	{
+	    cin>>p1>>p2>>q1>>q2;
+	    max1=p1>p2? p1:p2;
+	    max2=q1>q2? q1:q2;
+	    if(max1<max2)
+	    {
+	        cout<<"P\n";
+	    }
+	    else if(max1>max2){
+	        cout<<"Q\n";
+	    }
+	    else
+	    {
+	        cout<<"TIE\n";
+	    }
+	    n--;
+	}
+	
+	return 0;
+}
