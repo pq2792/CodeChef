@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,a,b,c;
+	cin>>t;
+	while(t!=0)
+	{
+	    cin>>a;
+	    cin>>b;
+	    cin>>c;
+	   
+	    if(a+b+c==180)
+	    {
+	        cout<<"YES"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"NO"<<endl;
+	    }
+	    t--;
+	}
+	return 0;
+}
