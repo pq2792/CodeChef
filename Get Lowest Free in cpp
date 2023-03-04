@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int a,b,c;
+	while(t--){
+	    cin>>a>>b>>c;
+	    int q=max({a+b,b+c,c+a});
+	    cout<<q<<endl;
+	    
+	}
+	return 0;
+}
