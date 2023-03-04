@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int n;
+	while(t--){
+	    cin>>n;
+	    string s;
+	    int c=0,d=0;
+	    while(n--){
+	        cin>>s;
+	        if(s=="START38"){
+	            c++;
+	        }
+	        else{
+	            d++;
+	        }
+	    }
+	    cout<<c<<" "<<d<<endl;
+	}
+	return 0;
+}
