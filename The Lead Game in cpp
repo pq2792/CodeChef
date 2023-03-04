@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int p1,p2,w=0,l=0;
+	int a=0,b=0;
+	while(t--){
+	    cin>>p1>>p2;
+	    
+	    a+=p1;
+	    b+=p2;
+	    int x=abs(a-b);
+	    if(x>l){
+	        l=x;
+	        p1>p2?w=1:w=2;;
+	        
+	    }
+	    
+	}
+	cout<<w<<" "<<l<<endl;
+	return 0;
+}
