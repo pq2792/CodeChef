@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int x1,x2,y1,y2;
+	while(t--){
+	    cin>>x1>>y1>>x2>>y2;
+	    int d=pow(x1,2)+pow(y1,2);
+	    int e=pow(x2,2)+pow(y2,2);
+	    if(d>e){
+	        cout<<"alex"<<endl;
+	    }
+	    else if(d<e){
+	        cout<<"bob"<<endl;
+	    }
+	    else{
+	        cout<<"equal"<<endl;
+	    }
+	}
+	return 0;
+}
