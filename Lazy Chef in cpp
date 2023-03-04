@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int x,m,d;
+	while(t--){
+	    cin>>x>>m>>d;
+	    int q=x*m;
+	    int f=x+d;
+	    if(q>f){
+	        cout<<f<<endl;
+	    }
+	    else{
+	        cout<<q<<endl;
+	    }
+	}
+	return 0;
+}
