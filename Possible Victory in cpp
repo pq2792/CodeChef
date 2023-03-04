@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int c,o,r;
+	cin>>c>>o>>r;
+	int d=20-o;
+	
+	int e=d*6*6;
+
+	int f=r+e;
+	
+	if(c<f){
+	    cout<<"yes"<<endl;
+	}
+	else{
+	    cout<<"no"<<endl;
+	}
+	return 0;
+}
