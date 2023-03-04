@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int x,y;
+	while(t--){
+	    cin>>x>>y;
+	    int d=0;
+	    d=500-(x*2);
+	    int e=0;
+	    e=1000-((x+y)*4);
+	    int f=0;
+	    f=d+e;
+	    //cout<<f;
+	    int g=0;
+	    int h=0;
+	    g=1000-(y*4);
+	    h=500-((x+y)*2);
+	    int i=0;
+	    i=g+h;
+	    //cout<<i;
+	    if(f>=i){
+	        cout<<f<<endl;
+	    }
+	    else{
+	        cout<<i<<endl;
+	    }
+	}
+	return 0;
+}
