@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,k;
+	    cin>>n>>k;
+	    int q=n/k;
+	    int w=n%k;
+	    if(w==0){
+	        cout<<q<<endl;
+	    }
+	    else{
+	        cout<<q+1<<endl;
+	    }
+	}
+	return 0;
+}
