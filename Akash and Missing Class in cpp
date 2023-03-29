@@ -1,0 +1,21 @@
+#include <iostream>
+#define ll long long
+using namespace std;
+
+int main() {
+    ll tcz;   
+    cin>>tcz;
+    while(tcz--){
+        ll x;
+        cin>>x;
+        ll val = x/7;          
+        ll n = x%7;
+        if(n == 6){
+            cout<<val+1<<endl;
+        }
+        else{
+            cout<<val<<endl;
+        }
+    }
+    return 0;
+}
