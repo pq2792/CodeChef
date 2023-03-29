@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	long long int a1,a2,b1,b2,c1,c2;
+	while(t--){
+	    cin>>a1>>a2;
+	    cin>>b1>>b2;
+	    cin>>c1>>c2;
+	    int d=a1+a2;
+	    int e=b1+b2;
+	    int f=c1+c2;
+	    if(d>e && d>f){
+	        cout<<d<<endl;
+	    }
+	    else if(e>d && e>f){
+	        cout<<e<<endl;
+	    }
+	    else{
+	        cout<<f<<endl;
+	    }
+	    
+	}
+	return 0;
+}
