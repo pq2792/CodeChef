@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int a,b,n;
+	while(t--){
+	    cin>>n>>a>>b;
+	    int d=2*(180+n);
+	    int e=b+a;
+	    cout<<d-e<<endl;
+	}
+	return 0;
+}
