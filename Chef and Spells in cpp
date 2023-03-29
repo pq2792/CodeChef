@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    long int a[3];
+	    for(int i=0;i<3;i++){
+	        cin>>a[i];
+	    }
+	    long int sum=a[0]+a[2];
+	    for(int i=0;i<2;i++){
+	        sum=max(sum,a[i]+a[i+1]);
+	    }
+	    cout<<sum<<endl;
+	    
+	}
+	return 0;
+}
