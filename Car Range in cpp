@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int p,m,v;
+	    cin>>p>>m>>v;
+	    if(p==1){
+	        cout<<m*v<<endl;
+	    }
+	    else{
+	        int d=m-p+1;
+	        cout<<d*v<<endl;
+	    }
+	}
+	
+	return 0;
+}
