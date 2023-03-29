@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	long long int x;
+	while(t--){
+	    cin>>x;
+	    int c=0;
+	    while(x%10!=0){
+	        x=x*2;
+	        c++;
+	        break;
+	    }
+	    if(x%10==0){
+	        cout<<c<<endl;
+	    }
+	    else{
+	        cout<<"-1"<<endl;
+	    }
+	}
+	return 0;
+}
