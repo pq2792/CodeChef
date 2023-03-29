@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int x,a,b;
+	while(t--){
+	    cin>>x>>a>>b;
+	    int d=a+(100-x)*b;
+	    cout<<d*10<<endl;
+	}
+	return 0;
+}
