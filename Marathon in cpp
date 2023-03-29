@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int D,d,a,b,c;
+	    cin>>D>>d>>a>>b>>c;
+	    int e=D*d;
+	    if(e>=10 && e<21){
+	        cout<<a<<endl;
+	    }
+	    else if(e>=21 && e<42){
+	        cout<<b<<endl;
+	    }
+	    else if(e>=42){
+	        cout<<c<<endl;
+	    }
+	    else{
+	        cout<<"0"<<endl;
+	    }
+	}
+	return 0;
+}
