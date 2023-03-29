@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,a,b;
+	    cin>>n>>a>>b;
+	    int g[n];
+	    float c=0,d=0;
+	    for(int i=0;i<n;i++){
+	        cin>>g[i];
+	        if(g[i]==a){
+	            c++;
+	        }
+	        if(g[i]==b){
+	            d++;
+	        }
+	  
+	    }
+	    cout<<fixed<<setprecision(10)<<float((c/n)*(d/n))<<endl;
+	    
+	}
+	return 0;
+}
