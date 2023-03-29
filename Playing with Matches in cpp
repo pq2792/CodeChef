@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	
+
+	while(t--){
+	    long int a,b;
+	    cin>>a>>b;
+	    int d=a+b;
+	    int e=0;
+	    int q[10]={6,2,5,5,4,5,6,3,7,6};
+	    while(d!=0){
+	        int r=d%10;
+	        
+	        e=e+q[r];
+	        d=d/10;
+	    }
+	    cout<<e<<endl;
+	}
+	return 0;
+}
