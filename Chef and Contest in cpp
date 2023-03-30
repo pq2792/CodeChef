@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int x,y,p,q;
+	while(t--){
+	    cin>>x>>y>>p>>q;
+	    int e=x+p*10;
+	    int f=y+q*10;
+	    if(e>f){
+	        cout<<"Chefina"<<endl;
+	    }
+	    else if(e==f){
+	        cout<<"Draw"<<endl;
+	    }
+	    else{
+	        cout<<"Chef"<<endl;
+	    }
+	}
+	return 0;
+}
