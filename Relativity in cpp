@@ -1,0 +1,14 @@
+#include<iostream>
+
+int main ()
+{
+    int t;
+    std::cin>>t;
+    while(t--) 
+    {
+        int g,c;
+        std::cin>>g>>c;
+        std::cout<<((c*c) / (2*g))<<std::endl;
+    }
+    return 0;
+}
