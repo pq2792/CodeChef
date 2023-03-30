@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    float x,y,xr,yr,d;
+	    cin>>x>>y>>xr>>yr>>d;
+	    float q=x/xr;
+	    float w=y/yr;
+	    float r=min(q,w);
+	    if(r>=d){
+	        cout<<"yes"<<endl;
+	    }
+	    else{
+	        cout<<"no"<<endl;
+	    }
+	}
+	return 0;
+}
