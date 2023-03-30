@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	long long int z;
+	int y;
+	int a,b,c;
+	while(t--){
+	    cin>>y>>z>>a>>b>>c;
+	    int d=(y-z);
+	    int e=a+b+c;
+	    if(d<e){
+	        cout<<"no"<<endl;
+	    }
+	    else{
+	        cout<<"yes"<<endl;
+	    }
+	}
+	
+	return 0;
+}
