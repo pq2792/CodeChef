@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	float s;
+	while(t--){
+	    cin>>s;
+	    if(s<1500){
+	        float hra=(s*10)/100;
+	        float da = (s*90)/100;
+	        cout<<fixed<<setprecision(2)<<s+hra+da<<endl;
+	    }
+	    else{
+	        cout<<fixed<<setprecision(2)<<s+500+((s*98)/100)<<endl;
+	    }
+	}
+	
+	return 0;
+}
