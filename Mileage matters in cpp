@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	
+	while(t--){
+	    float n,x,y,a,b;
+	    cin>>n>>x>>y>>a>>b;
+	    float g=(n/a)*x;
+	    float f=(n/b)*y;
+	    //cout<<g<<" "<<f;
+	    if(g>f){
+	        cout<<"diesel"<<endl;
+	    }
+	    if(g<f){
+	        cout<<"petrol"<<endl;
+	    }
+	    if(g==f){
+	        cout<<"any"<<endl;
+	    }
+	}
+	return 0;
+}
