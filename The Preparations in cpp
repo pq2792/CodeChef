@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	long int t;
+	long long m;
+	long int n,k;
+	cin>>t;
+	while(t--){
+	    cin>>m>>n>>k;
+	    if(m>n*k){
+	        cout<<"yes"<<endl;
+	    }
+	    else{
+	        cout<<"no"<<endl;
+	    }
+	}
+	return 0;
+}
