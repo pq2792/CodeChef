@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	long long int n;
+	while(t--){
+	    cin>>n;
+	    int d=0;
+	    d=n/100;
+	    int e=(n-d*100);
+	    
+	    int f=e/50;
+	    int g=(e-f*50);
+	    int h=g/10;
+	    int i=(g-h*10);
+	    int j=i/5;
+	    int k=(i-j*5);
+	    int l=k/2;
+	    int m=(k-l*2);
+	    int o=m/1;
+	    cout<<d+f+h+j+l+o<<endl;
+	    
+	}
+	return 0;
+}
