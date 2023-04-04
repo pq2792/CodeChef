@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int n,k;
+	while(t--){
+	    cin>>n>>k;
+	    int a[n];
+	    
+	    int y=k;
+	    for(int i=0;i<n;i++){
+	        cin>>a[i];
+	    }
+	    for(int i=0;i<n;i++){
+	        if(y>=a[i]){
+	            cout<<1;
+	            y=y-a[i];
+	            
+	        }
+	        else{
+	            cout<<0;
+	        }
+	    }
+	    cout<<endl;
+	}
+	return 0;
+}
