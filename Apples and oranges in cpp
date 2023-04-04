@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	long long int n,m;
+	while(t--){
+	    cin>>n>>m;
+	    int c=gcd(n,m);
+	    cout<<c<<endl;
+	}
+	return 0;
+}
