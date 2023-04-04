@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,v=0;
+	    cin>>n;
+	    string s;
+	    cin>>s;
+	    char temp;
+	    for(int i=1;i<n;i+=2){
+	        temp=s[i-1];
+	        s[i-1]=s[i];
+	        s[i]=temp;
+	    }
+	    for(int i=0;i<n;i++){
+	        v=219-(int)s[i];
+	        s[i]=char(v);
+	    }
+	    cout<<s<<endl;
+	    
+	}
+	return 0;
+}
