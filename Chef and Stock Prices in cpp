@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    long int s,a,b;
+	    double c;
+	    cin>>s>>a>>b>>c;
+	    float d=s+((s*c)/100);
+	    if(d>=a && d<=b){
+	        cout<<"Yes"<<endl;
+	    }
+	    else{
+	        cout<<"No"<<endl;
+	    }
+	}
+	return 0;
+}
