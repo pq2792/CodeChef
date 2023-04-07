@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n;
+	    cin>>n;
+	    string r;
+	    cin>>r;
+	    string s;
+	    cin>>s;
+	    int c=0,d=0,e=0,f=0;
+	    for(int i=0;i<r.length();i++){
+	        if(r[i]=='1'){
+	            c++;
+	        }
+	        else{
+	            d++;
+	        }
+	    }
+	    for(int i=0;i<s.length();i++){
+	        if(s[i]=='1'){
+	            e++;
+	        }
+	        else{
+	            f++;
+	        }
+	    }
+	    if(c==e && d==f){
+	        cout<<"YES"<<endl;
+	    }
+	    else{
+	        cout<<"NO"<<endl;
+	    }
+	    
+	}
+	
+	return 0;
+}
