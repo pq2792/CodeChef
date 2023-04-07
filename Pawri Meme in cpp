@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	string s;
+	while(t--){
+	    cin>>s;
+	    int l=s.length();
+	    for(int i=0;i<l;i++){
+	        if(s[i]=='p' && s[i+1]=='a' && s[i+2]=='r' && s[i+3]=='t' && s[i+4]=='y'){
+	            cout<<"pawri";
+	            i+=4;
+	        }
+	        else{
+	            cout<<s[i];
+	        }
+	    }
+	    cout<<endl;
+	}
+	return 0;
+}
