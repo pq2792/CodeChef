@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int a,b,c;
+	cin>>a>>b>>c;
+	if(c>a){
+	    int d=c-a;
+	    int e=d/b;
+	    if(e%2==0)
+	    {
+	        cout<<"Lucky Chef"<<endl;
+	    }
+	    else{
+	        cout<<"Unlucky Chef"<<endl;
+	    }
+	}
+	return 0;
+}
