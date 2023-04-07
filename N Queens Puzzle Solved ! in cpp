@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n;
+	    cin>>n;
+	    float d = pow(0.143*n,n);
+	    float e= d-floor(d);
+	    //cout<<e<<" ";
+	    if(e<0.5){
+	        cout<<floor(d)<<endl;
+	    }
+	    else{
+	        cout<<floor(d)+1<<endl;;
+	    }
+	    
+	}
+	return 0;
+}
