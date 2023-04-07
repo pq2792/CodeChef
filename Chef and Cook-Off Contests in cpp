@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n;
+	    cin>>n;
+	    string s;
+	    int c=0,d=0,e=0,f=0,h=0;
+	    for(int i=0;i<n;i++){
+	        cin>>s;
+	        if(s=="cakewalk"){
+	            c++;
+	        }
+	        else if(s=="simple"){
+	            d++;
+	        }
+	        else if(s=="easy"){
+	            e++;
+	        }
+	        else if(s=="easy-medium" || s=="medium"){
+	            f++;
+	        }
+	        else if(s=="medium-hard" || s=="hard"){
+	            h++;
+	        }
+	        
+	    }
+	    if(c!=0 && d!=0 && e!=0 && f!=0 && h!=0 ){
+	        cout<<"Yes"<<endl;
+	    }
+	    else{
+	        cout<<"No"<<endl;
+	    }
+	    
+	}
+	return 0;
+}
