@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n;
+	    cin>>n;
+	    int a=sqrt(n);
+	    int b=pow(a,2);
+	    if(b==n){
+	        cout<<"1"<<endl;
+	    }
+	    else{
+	        int c=0;
+	        int r=abs(n-b);
+	        while(r!=0){
+	            int x=sqrt(r);
+	            r=r-pow(x,2);
+	            c++;
+	        }
+	        cout<<c+1<<endl;
+	    }
+	}
+	return 0;
+}
