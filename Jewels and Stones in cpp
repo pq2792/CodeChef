@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    string s;
+	    string r;
+	    cin>>s;
+	    cin>>r;
+	    int c=0;
+	    for(int i=0;i<r.length();i++){
+	        for(int j=0;j<s.length();j++){
+	            if(r[i]==s[j]){
+	                c++;
+	                break;
+	            }
+	        }
+	    }
+	    cout<<c<<endl;
+	}
+	return 0;
+}
