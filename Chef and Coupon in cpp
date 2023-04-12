@@ -1,0 +1,34 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        int d,c;
+        cin>>d>>c;
+        int a[3],b[3],s1=0,s2=0;
+        for(int i=0;i<3;i++){
+            cin>>a[i];
+            s1+=a[i];
+        }
+        for(int i=0;i<3;i++){
+            cin>>b[i];
+            s2+=b[i];
+        }
+        int c1=s1+s2+2*d;
+        int c2=c1;
+        if(s1>=150){
+            c2-=d;
+        }
+        if(s2>=150){
+            c2-=d;
+        }
+        c2+=c;
+        if(c2<c1){
+            cout<<"YES"<<endl;
+        }
+        else{
+            cout<<"NO"<<endl;
+        }
+    }
+}
