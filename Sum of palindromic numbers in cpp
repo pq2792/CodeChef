@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int l,r;
+	    cin>>l>>r;
+	    int sum1=0;
+	    for(int i=l;i<=r;i++){
+	        int t=i;
+	        int sum=0;
+	        while(t>0){
+	            int r=t%10;
+	            sum=sum*10+r;
+	            t=t/10;
+	            
+	        }
+	        if(sum==i){
+	            sum1+=i;
+	        }
+	       
+	        
+	    }
+	    cout<<sum1<<endl;
+	}
+	return 0;
+}
