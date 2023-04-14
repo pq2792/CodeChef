@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int sum=1;
+	int c=1;
+	int flag=0;
+	while(t--){
+	    int n;
+	    cin>>n;
+	    int c=n/2+n%2;
+	    if(c%2==0){
+	        cout<<n<<endl;
+	    }
+	    else{
+	        cout<<n-1<<endl;
+	    }
+	}
+	return 0;
+}
