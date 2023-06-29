@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int a,b;
+	cin>>a>>b;
+	int d = b+a;
+	int e = b*a;
+	cout<<abs(d-e)<<endl;
+	return 0;
+}
