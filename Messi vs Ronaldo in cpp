@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int a,b,x,y;
+	cin>>a>>b>>x>>y;
+	int r = a*2+b;
+	int s = x*2+y;
+	if(r>s)
+	{
+	    cout<<"Messi"<<endl;
+	}
+	else if(r<s)
+	cout<<"Ronaldo"<<endl;
+	else
+	cout<<"Equal"<<endl;
+	return 0;
+}
